@@ -111,7 +111,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/Test Inheritance/examples/astemes/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{22D179F9-A9C5-4553-8B01-5A37EB02A425}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{35495011-B86F-4B6F-BAD6-16A45259FF9B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
