@@ -36,8 +36,6 @@ pipeline {
 				clearMutationHistory "${WORKSPACE}\\source"
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
-				//Build mkdocs documentation
-				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
 			}
 		}
 		stage('Deploy') {
@@ -52,7 +50,6 @@ pipeline {
 			steps{
 				//Build VIPM package
 				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
-				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
 		}
