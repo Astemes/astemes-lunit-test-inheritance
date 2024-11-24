@@ -1,6 +1,10 @@
 [ProjectWindow_Data]
 ProjectExplorer.ClassicPosition[String] = "37,1048,1155,1522"
 
+[AB_Cache_{0C0C0950-564F-45AC-BE55-F7C150B00CBE}]
+Cache_Path[Path] Line0001 = "/C/Users/AntonSundqvist/AppData/Local/Temp/AB_Cach"
+Cache_Path[Path] Line0002 = "e_{0C0C0950-564F-45AC-BE55-F7C150B00CBE}.txt"
+
 [AB_Cache_{F472316A-71A6-4288-9CE6-DA04B9259859}]
 Cache_Path[Path] Line0001 = "/C/Users/AntonSundqvist/AppData/Local/Temp/AB_Cach"
 Cache_Path[Path] Line0002 = "e_{F472316A-71A6-4288-9CE6-DA04B9259859}.txt"

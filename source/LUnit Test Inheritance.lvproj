@@ -96,6 +96,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Test Inheritance/vi.lib/astemes/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F472316A-71A6-4288-9CE6-DA04B9259859}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Test Inheritance/vi.lib/astemes/NI_AB_PROJECTNAME</Property>
